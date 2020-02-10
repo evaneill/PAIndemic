@@ -1,11 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-@author: Blopa
-"""
-
 import random
-from Game import Player
 
+from .players import Player
+
+# Agents have to return (tuple action to use, arg to use w action)
 class RandomPlayer(Player):
 	def request_action(self,game):
 		options = self.available_actions(game)
@@ -19,4 +16,4 @@ class RandomPlayer(Player):
 	
 	def request_discard(self,game):
 		return random.choice(self.cards).name
-	
+

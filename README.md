@@ -85,7 +85,7 @@ And it is through it that the interaction with the game logic should be performe
 Game.__init__(self,
         players,
         epidemic_cards=4,
-        cities=city_cards,
+        cities=CITY_CARDS,
         starting_city="atlanta",
         number_cubes=24,
         log_game=True,
