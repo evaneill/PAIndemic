@@ -1,3 +1,6 @@
+# MSc project
+Goal is to build off of this huge effort to explore what kinds of all-player-controlling agents are most successful.
+----------------------------------------------
 # PAIndemic
 
 Is a platform developed by Pablo Sauma-Chacón of the University of Costa Rica, that allows a human player to participate in a match of the game Pandemic (cooperative board game published by Matt Leacock in 2007) with an intelligent artificial agent through a web browser. The system also allows the development and testing of new agents which will be explained ahead.
